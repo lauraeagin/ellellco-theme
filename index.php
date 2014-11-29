@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div id="content-holder" class="container">
 <div id="teaser-holder" class="row">
 	<?php
 		if (have_posts()) :				
