@@ -12,6 +12,24 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 /* Most styles are contained in the parent theme, Griffin. The styles below are child theme modifications to the parent theme. */
 
 
+/* Global Child Theme Styles*/
+
+a {color: #0a6d6c; /*ellell teal */ }
+a:hover {color: #74bdae; /*ellell seafoam */ }
+
+/* Home Page */
+
+#mission {
+padding: 40px;
+background-color: #637e75; /*ellell greyish green */
+}
+
+h2.white {
+text-align: center;
+color: #fff;
+font-weight: 500;
+}
+
 /* Single Page */
 
 article #post-title, .teaser-title {
