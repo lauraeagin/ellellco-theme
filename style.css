@@ -17,6 +17,13 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 a {color: #0a6d6c; /*ellell teal */ }
 a:hover {color: #74bdae; /*ellell seafoam */ }
 
+h1.text-center, 
+h2.text-center, 
+h3.text-center, 
+h4.text-center, 
+h5.text-center, 
+h6.text-center {text-align:center;}
+
 /* Home Page */
 
 #mission {
@@ -29,6 +36,43 @@ text-align: center;
 color: #fff;
 font-weight: 500;
 }
+
+/* =CALL TO ACTION WIDGET 
+----------------------------------------------- */
+.widget_call_to_action { 
+	margin-bottom: 60px;  
+}
+.call-to-action-content-wrapper {
+	padding: 20px 4% 20px 4%;
+    background-color: #e2e2e2;
+}
+.call-to-action-content {
+	width: 68%;
+	float: left;
+}
+.call-to-action-content h3 {
+	color: #0a6d6c;
+	padding-bottom: 0;
+	font-size: 24px;
+}
+.call-to-action-content p {
+	color: #0a6d6c;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.call-to-action-button {
+	float: right;
+	text-align: center;
+	padding: 5px 3.28407225%;
+	margin-top: 4px;
+}
+.call-to-action-button:hover {
+	-webkit-box-shadow:0 0 2px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow:0 0 2px rgba(0, 0, 0, 0.6);
+	box-shadow:0 0 2px rgba(0, 0, 0, 0.6);
+}
+
 
 /* Single Page */
 
