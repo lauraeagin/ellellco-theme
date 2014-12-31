@@ -31,7 +31,7 @@
 		<div class="row">
 
 				<?php dynamic_sidebar('homepage-portfolio'); ?>
-			<div class="col-md-4">
+			<!--<div class="col-md-4">
 				<h3 class="text-center">Example 1</h3>
 			</div>
 			<div class="col-md-4">
@@ -39,9 +39,8 @@
 			</div>
 			<div class="col-md-4">
 				<h3 class="text-center">Example 1</h3>
-			</div>
+			</div>-->
 		</div>
-
     </section>
     <section id="bios" class="homepage-bios">
 
@@ -76,7 +75,7 @@
 		    <div class="col-md-4">
 				<h3 class="text-center">&amp; Company</h3>
 		         <?php if( get_field( "co_bio_photo" ) ): ?>
-					<li><a href="/about/"><img src="<?php the_field('co_bio_photo'); ?>" class="img-circle" alt="web development team" width="200"/></a></li>
+					<li class="img-circle"><a href="/about/"><img src="<?php the_field('co_bio_photo'); ?>" class="img-circle" alt="web development team" width="200"/></a></li>
 		 				<?php endif;
 		        ?>
     		</div>

@@ -37,6 +37,15 @@ color: #fff;
 font-weight: 500;
 }
 
+.homepage-bios li.img-circle {
+	list-style-type: none;
+}
+
+.homepage-bios img.img-circle {
+	display: block;
+	margin: 0 auto;
+}
+
 /* =CALL TO ACTION WIDGET 
 ----------------------------------------------- */
 .widget_call_to_action { 
