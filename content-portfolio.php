@@ -7,7 +7,7 @@ $testimonial = get_field('testimonial');
 ?>
 <?php if (is_single()) : ?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-		<?php the_post_thumbnail('featured-full'); ?>
+		<!--<?php the_post_thumbnail('featured-full'); ?>-->
 		<div id="post-content">
 			<span id="post-comment-total"><?php comments_number('0', '1', '%'); ?></span>
 			<?php the_title('<h1 id="post-title">', '</h1>'); ?>
