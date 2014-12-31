@@ -97,6 +97,7 @@
  				<?php endif;
  				?>
  		
+ 		
 </div>
         <?php if( get_field( "call_to_action_link" ) ): ?>
 			<a class="call-to-action-button btn btn-primary" href="<?php the_field('call_to_action_link'); ?>" title="Work with us">Work with us</a>
