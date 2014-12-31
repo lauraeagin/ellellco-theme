@@ -24,6 +24,12 @@ h4.text-center,
 h5.text-center, 
 h6.text-center {text-align:center;}
 
+img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* Home Page */
 
 #mission {
@@ -41,10 +47,6 @@ font-weight: 500;
 	list-style-type: none;
 }
 
-.homepage-bios img.img-circle {
-	display: block;
-	margin: 0 auto;
-}
 
 /* =CALL TO ACTION WIDGET 
 ----------------------------------------------- */
