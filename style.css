@@ -11,11 +11,19 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 /* Most styles are contained in the parent theme, Griffin. The styles below are child theme modifications to the parent theme. */
 
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
 
 /* Global Child Theme Styles*/
 
-a {color: #0a6d6c; /*ellell teal */ }
-a:hover {color: #74bdae; /*ellell seafoam */ }
+body {font-family:Raleway; font-weight:400;}
+
+a {font-weight: 700; text-decoration:none;}
+a:hover {color:#074f57;}
+
+h1{color: #074f57; font-size: 30px; font-size: 1.875rem; line-height: 40px;}
+h2{color: #89023e; font-size:3em; font-size: 25px; font-size: 1.563rem; line-height: 33px;}
+h3{color: #074f57; font-size:3em; font-size: 18px; font-size: 1.125rem; line-height: 20px;}
+h4{color: #89023e; font-size:3em;}
 
 h1.text-center, 
 h2.text-center, 
