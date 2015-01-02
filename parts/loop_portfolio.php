@@ -4,7 +4,7 @@
 			<a href="<?php the_permalink(); ?>">
 			<?php the_post_thumbnail('medium', array('class' => 'aligncenter')); ?>
 			</a>
-			<a href="<?php the_permalink(); ?>">
+			<a href="<?php the_permalink(); ?>" class="btn btn-default" role="button">
 			<h3 class="text-center"><?php the_title(); ?></h3>
 			</a>
 			</div>
