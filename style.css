@@ -99,8 +99,7 @@ line-height: 40px;
 	}
 
 
-/* =CALL TO ACTION WIDGET 
------------------------------------------------ */
+/* Homepage Call To Action Box */
 .widget_call_to_action { 
 	margin-bottom: 60px;  
 }
@@ -148,6 +147,12 @@ article #post-title, .teaser-title {
 padding-right: 0; /*Since comments are not enabled, we don't need right padding anymore */
 }
 
+/* Widgets */
+
+#sidebar-widgets .widget h4 {
+border: none;
+}
+
 /* Footer : Style the search bar to be darker */
 
 #footer-widgets .widget_search #s {
@@ -156,18 +161,31 @@ padding-right: 0; /*Since comments are not enabled, we don't need right padding 
 	padding: 10px;
 }
 
-/****   FOOTER   ****/
+/**** Gravity Forms ****/
 
-
-/* Latest Posts widget */
-p.pis-title {
-font-size: 1.3em;
+/* no more tiny font sizes in my pretty gravity forms! */
+.gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
+	font-size:inherit;
 }
 
 /* Footer gravity form styling */
 
 #gform_submit_button_1 {
 	background: #89023e;
+}
+
+.gform_wrapper select {
+font-size: inherit;
+padding: 20px 0;
+}
+
+
+/****   FOOTER   ****/
+
+
+/* Latest Posts widget */
+p.pis-title {
+font-size: 1.3em;
 }
 
 /* Improve the look on mobile */
