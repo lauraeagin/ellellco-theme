@@ -6,7 +6,7 @@
 				<div class="col-md-12">
 
 				<?php if( get_field( "mission_statement" ) ): ?>
-					<h2 class="white text-center"><?php the_field('mission_statement'); ?></h2>
+					<p class="white text-center"><?php the_field('mission_statement'); ?></p>
 						<?php endif;
 		        ?>
 			    </div>

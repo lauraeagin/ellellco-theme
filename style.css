@@ -72,15 +72,22 @@ img.aligncenter {
 
 /* Home Page */
 
+body.home p { font-size: 1.5em; }
+
+body.home h2 { font-size: 3.5em; } 
+
 #mission {
 padding: 40px;
-background-color: #89023e;
+background-color: #074f57;
 }
 
-h2.white {
+p.white {
 text-align: center;
 color: #fff;
-font-weight: 400;
+font-weight: 400; 
+font-size: 30px; 
+font-size: 2.1875rem; 
+line-height: 40px;
 }
 
 .homepage-bios li.bio {
@@ -118,16 +125,20 @@ font-weight: 400;
 }
 
 .call-to-action-button {
+	color:#89023e;
 	float: right;
+	font-size:20px;
 	text-align: center;
-	padding: 5px 3.28407225%;
-	margin-top: 4px;
-	background-color:#fff;
+	padding: 10px 5%;
+	margin-top: 40px;
+	background-color: #fff;
 }
 .call-to-action-button:hover {
 	-webkit-box-shadow:0 0 2px rgba(0, 0, 0, 0.6);
 	-moz-box-shadow:0 0 2px rgba(0, 0, 0, 0.6);
 	box-shadow:0 0 2px rgba(0, 0, 0, 0.6);
+	color:#000;
+	background-color: #cc7178;
 }
 
 
