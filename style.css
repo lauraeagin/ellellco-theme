@@ -15,15 +15,43 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 /* Global Child Theme Styles*/
 
-body {font-family:Raleway; font-weight:400;}
+body {font-family:'Raleway', 'Century-Gothic','Arial', 'sans-serif'; font-weight:400;}
 
 a {font-weight: 700; text-decoration:none;}
 a:hover {color:#074f57;}
 
-h1{color: #074f57; font-size: 30px; font-size: 1.875rem; line-height: 40px;}
-h2{color: #89023e; font-size:3em; font-size: 25px; font-size: 1.563rem; line-height: 33px;}
-h3{color: #074f57; font-size:3em; font-size: 18px; font-size: 1.125rem; line-height: 20px;}
-h4{color: #89023e; font-size:3em;}
+h1{color: #074f57; font-weight: 400; font-size: 36px; font-size: 2,5rem; line-height: 48px; text-transform: uppercase;}
+h2{color: #89023e; font-weight: 400; font-size: 30px; font-size: 2.1875rem; line-height: 40px;}
+h3{color: #074f57; font-weight: 400; font-size: 25px; font-size: 1.875rem; line-height:30px;}
+h4{color: #89023e; font-weight: 700; font-size: 18px; font-size: 1.125rem; line-height:22px;}
+
+.btn-default { background-color: #074f57;}
+.btn-primary { background-color: #89023e;}
+.btn-secondary { background-color: #8bb174;}
+
+
+/* Global Layout */
+
+section {padding: 40px 15px;}
+
+
+/* Top Nav Menu */
+
+#primary-menu {
+	background: #89023e url("images/ellellco-ruby-pattern.gif"); 
+	float:none; /*Fixes a bootstrap default that made menu float left. created weird overlaps */
+}
+
+#primary-menu li a {
+	text-transform: uppercase;
+	font-size: 1.15em;
+	font-weight: 400;
+	color: #f3f3f3;
+	letter-spacing: 4px;
+	margin: 0 40px;
+}
+
+/* Centering fix */
 
 h1.text-center, 
 h2.text-center, 
@@ -32,18 +60,37 @@ h4.text-center,
 h5.text-center, 
 h6.text-center {text-align:center;}
 
+img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img-circle {
+	border: 5px solid #074f57;
+	}
+
 /* Home Page */
 
 #mission {
 padding: 40px;
-background-color: #637e75; /*ellell greyish green */
+background-color: #89023e;
 }
 
 h2.white {
 text-align: center;
 color: #fff;
-font-weight: 500;
+font-weight: 400;
 }
+
+.homepage-bios li.bio {
+	list-style-type: none;
+}
+
+.homepage-portfolio h3 {
+	background-color:#8bb174; margin:20px 10px; border:0; color:#fff; padding:5px 7px; text-align:center; font-size:14px; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;
+	}
+
 
 /* =CALL TO ACTION WIDGET 
 ----------------------------------------------- */
@@ -52,19 +99,20 @@ font-weight: 500;
 }
 .call-to-action-content-wrapper {
 	padding: 20px 4% 20px 4%;
-    background-color: #e2e2e2;
+    background-color: #89023e;
 }
 .call-to-action-content {
 	width: 68%;
 	float: left;
 }
 .call-to-action-content h3 {
-	color: #0a6d6c;
+	color: #fff;
 	padding-bottom: 0;
 	font-size: 24px;
+	font-weight:400;
 }
 .call-to-action-content p {
-	color: #0a6d6c;
+	color: #fff;
 	padding-bottom: 0;
 	margin-bottom: 0;
 }
@@ -74,6 +122,7 @@ font-weight: 500;
 	text-align: center;
 	padding: 5px 3.28407225%;
 	margin-top: 4px;
+	background-color:#fff;
 }
 .call-to-action-button:hover {
 	-webkit-box-shadow:0 0 2px rgba(0, 0, 0, 0.6);
@@ -96,11 +145,18 @@ padding-right: 0; /*Since comments are not enabled, we don't need right padding 
 	padding: 10px;
 }
 
+/****   FOOTER   ****/
 
-/* Footer : gravity form styling */
+
+/* Latest Posts widget */
+p.pis-title {
+font-size: 1.3em;
+}
+
+/* Footer gravity form styling */
 
 #gform_submit_button_1 {
-	background: #e05757;
+	background: #89023e;
 }
 
 /* Improve the look on mobile */
