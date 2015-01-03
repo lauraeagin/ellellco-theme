@@ -2,7 +2,12 @@
 		<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 			<div class="col-md-4">
 			<a href="<?php the_permalink(); ?>">
-			<?php the_post_thumbnail('medium', array('class' => 'aligncenter')); ?>
+				<?php if (get_field('homepage_thumbnail')) {
+					$imgurl = get_field('homepage_thumbnail');
+					echo '<img src="'.$imgurl.'" alt="'.the_title().'" class="homepage-thumbnail aligncenter">';
+				}
+				 ?>
+			<!--<?php the_post_thumbnail('medium', array('class' => 'aligncenter')); ?>-->
 			</a>
 			<a href="<?php the_permalink(); ?>" class="btn btn-default" role="button">
 			<h3 class="text-center"><?php the_title(); ?></h3>
