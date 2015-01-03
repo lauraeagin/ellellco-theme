@@ -19,7 +19,9 @@
 		<div class="container">
 			<div class="col-md-12">
 				<?php wp_nav_menu(array('theme_location' => 'footer','depth' => 1,'container' => false,'fallback_cb' => false)); ?> 
-				<p><?php _e('Copyright &copy; 2014', 'griffin'); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo('name'); ?></a> &ndash; <a href="http://www.wpmultiverse.com/themes/griffin/" target="_blank"><?php _e('Griffin Theme', 'griffin'); ?></a></p>			
+				<p><?php _e('&copy; ', 'griffin'); ?><?php echo date("Y"); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<?php bloginfo('name'); ?></a> &ndash; <a href="https://github.com/lauraeagin/ellellco-theme" target="_blank"><?php _e('ellell theme', 'griffin'); ?></a><?php _e(', a child of', 'griffin'); ?>	
+					<a href="http://www.wpmultiverse.com/themes/griffin/" target="_blank"><?php _e('griffin theme', 'griffin'); ?></a></p>			
 			</div>
 		</div>
 	</div>
