@@ -8,11 +8,11 @@
 					echo '<img src="'.$imgurl.'" alt="'.$title.'" class="homepage-thumbnail aligncenter">';
 				}
 				 ?>
-			<!--<?php the_post_thumbnail('medium', array('class' => 'aligncenter')); ?>-->
 			</a>
 			<a href="<?php the_permalink(); ?>" class="btn btn-default" role="button">
 			<h3 class="text-center"><?php the_title(); ?></h3>
 			</a>
+			<?php the_tags( '<span class="home-tags text-center">Tagged with: ', ' • ', '</span>' ); ?>
 			</div>
 		<?php endwhile; wp_reset_query(); ?>
 		<!-- button to view portfolio will go here! -->
