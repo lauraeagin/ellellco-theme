@@ -19,11 +19,11 @@
 		<div class="container">
 			<div class="col-md-12">
 				<?php wp_nav_menu(array('theme_location' => 'footer','depth' => 1,'container' => false,'fallback_cb' => false)); ?> 
-				<p><?php _e('&copy; ', 'griffin'); ?><?php echo date("Y"); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<?php bloginfo('name'); ?></a> &ndash; 
+				<p class="small"><?php _e('&copy; ', 'griffin'); ?><?php echo date("Y"); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<?php bloginfo('name'); ?></a> &mdash; 
 					<a href="https://github.com/lauraeagin/ellellco-theme" target="_blank"><?php _e('ellell theme', 'griffin'); ?></a><?php _e(', a child of', 'griffin'); ?>	
 					<a href="http://www.wpmultiverse.com/themes/griffin/" target="_blank"><?php _e('griffin theme', 'griffin'); ?></a>
-					<br><?php _e('photography by ', 'griffin'); ?><a href="http://gbanuelos.carbonmade.com/" target="_blank"><?php _e('Gabriel Banuelos ', 'griffin'); ?></a></p></div>
+					&mdash; <?php _e('photography by ', 'griffin'); ?><a href="http://gbanuelos.carbonmade.com/" target="_blank"><?php _e('Gabriel Banuelos ', 'griffin'); ?></a></p></div>
 		</div>
 	</div>
 </footer>

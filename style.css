@@ -75,6 +75,8 @@ body.home p { font-size: 1.5em; }
 
 body.home h2 { font-size: 3.5em; } 
 
+body.home p.small, p.small {font-size: 100%;}
+
 #mission {
 padding: 40px;
 background-color: #074f57;
