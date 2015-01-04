@@ -34,6 +34,14 @@ h4{color: #89023e; font-weight: 700; font-size: 18px; font-size: 1.125rem; line-
 
 section {padding: 40px 15px;}
 
+/* Header */
+
+header {
+	height: 210px;
+	padding-top: 45px;
+}
+
+
 /* Top Nav Menu */
 
 #primary-menu {
@@ -160,10 +168,24 @@ padding-right: 0; /*Since comments are not enabled, we don't need right padding 
 display: none;
 }
 
+/* Portfolio Page */
+
+.teaser-more {
+	border-bottom: 2px solid #89023e;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #89023e;
+}
+
 /* Widgets */
 
 #sidebar-widgets .widget h4 {
 border: none;
+}
+
+aside#gform_widget-3 { /* Let's talk Widget in sidebar */
+background: #d5d5d5;
+padding: 25px 25px 10px 25px;
 }
 
 /* Footer : Style the search bar to be darker */
@@ -217,7 +239,9 @@ font-size: 1.3em;
 
 @media (max-width: 655px) {
 
-
+	header {
+	height: 125px;
+	}
 
 	#primary-menu li {
 		float:none;
