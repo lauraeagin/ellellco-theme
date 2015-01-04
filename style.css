@@ -25,6 +25,8 @@ h2{color: #89023e; font-weight: 400; font-size: 30px; font-size: 2.1875rem; line
 h3{color: #074f57; font-weight: 400; font-size: 25px; font-size: 1.875rem; line-height:30px;}
 h4{color: #89023e; font-weight: 700; font-size: 18px; font-size: 1.125rem; line-height:22px;}
 
+hr { margin-top: 20px; margin-bottom: 10px; }
+
 /* Button Styles that should be in our Bootstrap .css but aren't */
 
 .btn {
@@ -78,12 +80,14 @@ h4{color: #89023e; font-weight: 700; font-size: 18px; font-size: 1.125rem; line-
   width: 100%;
 }
 
-.btn-primary {
-  background-color: #89023e;
+.btn-center {
+	width:60%;
+	margin: 0 20%;
 }
 
-.btn-default { background-color: #074f57;}
-.btn-secondary { background-color: #8bb174;}
+.btn-primary { color:#fff; background-color: #89023e;}
+.btn-default { color:#fff; background-color: #074f57;}
+.btn-secondary { color:#fff; background-color: #8bb174;}
 
 
 /* Global Layout */
@@ -214,8 +218,7 @@ line-height: 40px;
 	background-color: #cc7178;
 }
 
-
-/* Single Page */
+/* Page */
 
 article #post-title, .teaser-title {
 padding-right: 0; /*Since comments are not enabled, we don't need right padding anymore */
@@ -224,6 +227,8 @@ padding-right: 0; /*Since comments are not enabled, we don't need right padding 
 .galleria-info, .galleria-amw-fullscreen { /* declutter galleria styling */
 display: none;
 }
+
+/* Portfolio Page & Single Portfolio Item Page*/
 
 article blockquote {
 	text-align: left;
@@ -247,7 +252,18 @@ blockquote p {
   display: inline;
 }
 
-/* Portfolio Page */
+.wp-caption { /* Captions */
+border-bottom: 1px solid #DBDBDB;
+margin-bottom: 40px !important;
+}
+
+article .wp-caption-text, .gallery-caption { /* Caption Text */
+font-size: 14px;
+margin-top: 0;
+text-align: center;
+margin: 5px 10px;
+color: #818181;
+}
 
 .teaser-more {
 	border-bottom: 2px solid #89023e;
@@ -255,6 +271,20 @@ blockquote p {
 	font-weight: 700;
 	color: #89023e;
 }
+
+a.visit-site { /* centers the "visit site" button at bottom of page */
+	display: block;
+	width: 40%;
+	margin: 20px 30%;
+	color: #fff;
+}
+
+article #post-tags a { 
+background-color: #BABABA;
+border-radius: 2px;
+font-weight: 400;
+}
+
 
 /* Widgets */
 
