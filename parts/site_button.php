@@ -1,3 +1,3 @@
 <?php if ($url) : 
-			echo '<a href="'.$url.'" class="button">Visit Site</a>'; 
+			echo '<a href="'.$url.'" class="btn btn-primary" role="button">Visit Site</a>'; 
 			endif; ?>

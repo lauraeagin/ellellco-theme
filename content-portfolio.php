@@ -11,8 +11,8 @@ $testimonial = get_field('testimonial');
 		<div id="post-content">
 			<span id="post-comment-total"><?php comments_number('0', '1', '%'); ?></span>
 			<?php the_title('<h1 id="post-title">', '</h1>'); ?>
-			<?php include("parts/site_button.php"); ?>
 			<?php the_content() ?>
+			<?php include("parts/site_button.php"); ?>
 			<?php if($testimonial) :
 			echo '<blockquote><p>' . $testimonial . '</p></blockquote>';
 			endif; ?>
