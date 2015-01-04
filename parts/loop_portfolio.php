@@ -9,9 +9,10 @@
 				}
 				 ?>
 			</a>
-			<a href="<?php the_permalink(); ?>" class="btn btn-default" role="button">
-			<h3 class="text-center"><?php the_title(); ?></h3>
+			<a href="<?php the_permalink(); ?>" class="btn btn-default btn-center" role="button">
+			<?php the_title(); ?>
 			</a>
+			<hr/>
 			<?php the_tags( '<span class="home-tags text-center">Tagged with: ', ' • ', '</span>' ); ?>
 			</div>
 		<?php endwhile; wp_reset_query(); ?>
