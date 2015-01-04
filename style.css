@@ -168,6 +168,28 @@ padding-right: 0; /*Since comments are not enabled, we don't need right padding 
 display: none;
 }
 
+article blockquote {
+	text-align: left;
+	font-size: 20px;
+	color: #aaa;
+	border-left: 10px solid #b5ca8d;
+  	margin: 1.5em 0;
+  	padding: 0.5em 20px;
+  	quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+	color: #b5ca8d;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.15em;
+	vertical-align: -0.4em;
+	font-family: georgia;
+}
+blockquote p {
+  display: inline;
+}
+
 /* Portfolio Page */
 
 .teaser-more {
