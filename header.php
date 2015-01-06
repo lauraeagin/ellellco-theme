@@ -4,12 +4,12 @@
 	<title><?php wp_title('|', true, 'right'); ?></title>
 	<meta charset="<?php bloginfo('charset'); ?>" />           
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="WordPress developer and custom WordPress theme designer Laura Eagin.">      
-	<meta name="DC.Subject" xml:lang="EN" content="WordPress Portfolio of Laura Eagin" /> 
-	<meta name="DC.Publisher" content="Laura Eagin" />
+	<meta name="description" content="WordPress developers and custom theme designers Laura Eagin and Leeann Drees.">      
+	<meta name="DC.Subject" xml:lang="EN" content="Portfolio of ellell &amp; co" /> 
+	<meta name="DC.Publisher" content="Laura Eagin and Leeann Drees" />
 	<meta name="DC.Type" content="text/html" />
-	<meta name="DC.Description" xml:lang="EN" content="The online portfolio of web developer and graphic designer Laura Eagin, based in Seattle WA. Freelance portfolio and work samples." />
-	<meta name="DC.Rights" content="Copyright 2014, Laura Eagin.  All rights reserved." />
+	<meta name="DC.Description" xml:lang="EN" content="The online portfolio of web developers and designers Laura Eagin and Leeann Drees." />
+	<meta name="DC.Rights" content="Copyright 2015, ellell &amp; co.  All rights reserved." />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />        
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />    
 	<?php wp_head(); ?>
