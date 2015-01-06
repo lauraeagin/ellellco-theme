@@ -340,12 +340,18 @@ padding-top: 20px;
 
 /* Desktop Only */
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
 
-	#post-holder { /* a little left & right breathing room for individual portfolio pages */
-		margin-top: 40px;
-		margin-left: 3%;
-		margin-right: 3%;
+	.container {
+		width: 90%;
+	}
+
+	#content-holder {
+		margin-top: 25px;
+	}
+
+	#post-holder {
+		margin-top: 10px;
 	}
 
 }
