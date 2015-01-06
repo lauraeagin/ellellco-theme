@@ -297,13 +297,11 @@ background: #d5d5d5;
 padding: 25px 25px 10px 25px;
 }
 
-/* Footer : Style the search bar to be darker */
-
-#footer-widgets .widget_search #s {
-	background-color: #666;
-	border: none;
-	padding: 10px;
+/* Latest Posts widget */
+p.pis-title {
+font-size: 1.3em;
 }
+
 
 /**** Gravity Forms ****/
 
@@ -326,10 +324,18 @@ padding: 20px 0;
 
 /****   FOOTER   ****/
 
+#footer-widgets {
+width: 100%;
+background-color: #222;
+padding-top: 20px;
+}
 
-/* Latest Posts widget */
-p.pis-title {
-font-size: 1.3em;
+/* Footer : Style the search bar to be darker */
+
+#footer-widgets .widget_search #s {
+	background-color: #666;
+	border: none;
+	padding: 10px;
 }
 
 /* Desktop Only */
