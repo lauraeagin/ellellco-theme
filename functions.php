@@ -6,6 +6,13 @@ function enqueue_child_theme_styles() {
     wp_enqueue_style( 'child-style', get_stylesheet_uri(), array('parent-style')  );
 }
 
+add_action( 'wp_print_styles', 'my_deregister_styles', 100 );
+
+function my_deregister_styles() {
+	wp_deregister_style( 'griffin_ubuntu' );
+	wp_deregister_style( 'griffin_style' );
+}
+
 register_sidebar(array(
 		'name' => __('Homepage Portfolio', 'griffin'),
 		'id' => 'homepage-portfolio',
