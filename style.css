@@ -400,6 +400,10 @@ color: inherit;
 color: #fff;
 }
 
+.social-table td {
+	padding: 5px;
+}
+
 /* Footer : Style the search bar to be darker */
 
 #footer-widgets .widget_search #s {
