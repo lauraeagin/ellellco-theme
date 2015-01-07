@@ -89,7 +89,7 @@ hr { margin-top: 20px; margin-bottom: 10px; }
 	margin: 0 20%;
 }
 
-.btn-primary { color:#fff !important; background-color: #89023e;}
+.btn-primary { color:#fff; background-color: #89023e;}
 .btn-default { color:#fff; background-color: #074f57;}
 .btn-secondary { color:#fff; background-color: #BAB9B7;}
 
@@ -176,6 +176,7 @@ margin: 10px 0;
 .home-tags {
 margin-top: 10px;
 display: block;
+text-align:center;
 }
 
 .homepage-bios li.bio {
@@ -210,8 +211,10 @@ display: block;
 .call-to-action-content h3 {
 	color: #fff;
 	padding-bottom: 0;
-	font-size: 24px;
-	font-weight:400;
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 12px;
+	margin-bottom: 10px;
 }
 .call-to-action-content p {
 	color: #fff;
@@ -224,8 +227,8 @@ display: block;
 	float: right;
 	font-size:20px;
 	text-align: center;
-	padding: 10px 5%;
-	margin-top: 40px;
+	padding: 12px 5%;
+	margin-top: 49px;
 	background-color: #fff;
 }
 .call-to-action-button:hover {
@@ -393,7 +396,7 @@ padding-top: 20px;
 }
 
 #footer-widgets .widget a {
-color: inherit;
+color: #fff;
 }
 
 #footer-widgets .widget a:hover {
