@@ -89,9 +89,9 @@ hr { margin-top: 20px; margin-bottom: 10px; }
 	margin: 0 20%;
 }
 
-.btn-primary { color:#fff; background-color: #89023e;}
+.btn-primary { color:#fff !important; background-color: #89023e;}
 .btn-default { color:#fff; background-color: #074f57;}
-.btn-secondary { color:#fff; background-color: #8bb174;}
+.btn-secondary { color:#fff; background-color: #BAB9B7;}
 
 
 /* Global Layout */
