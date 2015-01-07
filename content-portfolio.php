@@ -32,8 +32,14 @@ $testimonial = get_field('testimonial');
 			<p><?php echo get_avatar(get_the_author_meta( 'ID' ), 32); ?> <?php the_author(); ?> &bull; <?php the_time(get_option('date_format')); ?></p>
 			<hr />
 			<div id="post-nav">
-				<?php previous_post_link('<div id="post-nav-prev"><p><span>&Larr;</span> Previous Post</span></p>%link</div>'); ?> 	
-				<?php next_post_link('<div id="post-nav-next"><p>Next Post <span>&Rarr;</span></p>%link</div>'); ?> 	
+				<?php previous_post_link('<div id="post-nav-prev"><h5><span>&#8672;</span> Previous Post</span></h5>%link </div>'); ?> 	
+				<?php next_post_link('<div id="post-nav-next"><h5>Next Post <span>&#8674;</span></h5>%link</div>'); ?> 	
+				<div id="post-thumb-prev">
+					<?php $prevPost = get_previous_post(true); $prevThumbnail = get_the_post_thumbnail($prevPost->ID, array(150,150) ); echo $nextthumbnail; ?><?php previous_post_link( '%link', $prevThumbnail ); ?>
+				</div>
+				<div id="post-thumb-next">
+					<?php $nextPost = get_next_post(true); $nextThumbnail = get_the_post_thumbnail($nextPost->ID, array(150,150) ); echo $nextthumbnail; ?><?php next_post_link( '%link', $nextThumbnail ); ?>
+				</div>
 			</div>	
 		</div>	
 	</article>	
