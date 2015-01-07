@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 		
-	<section id="mission" class="homepage-mission">
+<!--	<section id="mission" class="homepage-mission">
 
 			<div class="row">
 				<div class="col-md-12">
@@ -13,7 +13,9 @@
 			</div>
     </section>
 
-    <div id="content-holder" class="container">
+-->
+
+    <div id="content-holder" class="container home">
 
     <section id="portfolio" class="homepage-portfolio">
 
