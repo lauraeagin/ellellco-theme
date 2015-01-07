@@ -103,8 +103,12 @@ section {padding: 40px 15px;}
 header {
 	height: 210px;
 	padding-top: 45px;
+	background-color:#fff;
 }
 
+header #header-logo img {
+max-height: 150px;
+}
 
 /* Top Nav Menu */
 
@@ -144,11 +148,11 @@ img.aligncenter {
 
 /* Home Page */
 
-body.home p { font-size: 1.5em; }
+#content-holder.home p { font-size: 1.5em; }
 
-body.home h2 { font-size: 3.5em; } 
+#content-holder.home h2 { font-size: 3.5em; } 
 
-body.home p.small, p.small {font-size: 100%;}
+#content-holder.home p.small, p.small {font-size: 100%;}
 
 #mission {
 padding: 40px;
@@ -162,6 +166,16 @@ font-weight: 400;
 font-size: 30px; 
 font-size: 2.1875rem; 
 line-height: 40px;
+}
+
+img.homepage-thumbnail {
+width: 100%;
+margin: 10px 0;
+}
+
+.home-tags {
+margin-top: 10px;
+display: block;
 }
 
 .homepage-bios li.bio {
@@ -376,6 +390,10 @@ padding: 20px 0;
 width: 100%;
 background-color: #222;
 padding-top: 20px;
+}
+
+#footer-widgets .widget a {
+color: inherit;
 }
 
 #footer-widgets .widget a:hover {
