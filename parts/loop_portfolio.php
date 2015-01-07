@@ -9,11 +9,10 @@
 				}
 				 ?>
 			</a>
-			<a href="<?php the_permalink(); ?>" class="btn btn-default btn-center" role="button">
+			<a href="<?php the_permalink(); ?>" class="btn btn-secondary btn-center margin-top-10" role="button">
 			<?php the_title(); ?>
 			</a>
-			<hr/>
-			<?php the_tags( '<span class="home-tags text-center">Tagged with: ', ' • ', '</span>' ); ?>
+			<?php the_tags( '<span class="home-tags text-center margin-top-10">Tagged with: ', ' • ', '</span>' ); ?>
 			</div>
 		<?php endwhile; wp_reset_query(); ?>
 		<!-- button to view portfolio will go here! -->
