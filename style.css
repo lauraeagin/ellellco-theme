@@ -370,6 +370,16 @@ border-bottom: none;
 	font-size:inherit;
 }
 
+.gfield_select { /* style the gravity forms dropdown select */
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.428571429;
+vertical-align: middle;
+background-color: #fff;
+border: 1px solid #ccc;
+}
+
 .gform_wrapper .gform_footer {
 padding: 5px 0 2px 0 !important;
 margin: 5px 0 0 0 !important;
