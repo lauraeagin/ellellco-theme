@@ -11,7 +11,8 @@
 	<meta name="DC.Description" xml:lang="EN" content="The online portfolio of web developers and designers Laura Eagin and Leeann Drees." />
 	<meta name="DC.Rights" content="Copyright 2015, ellell &amp; co.  All rights reserved." />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />        
-	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />    
+	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" /> 
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">   
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
