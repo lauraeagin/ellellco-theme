@@ -419,7 +419,8 @@ color: #fff;
 	.container {
 		width: 90%;
 	}
-	.post-type-archive-portfolio .container {
+
+	.archive .container {
 		width: 93%; /*allows 3 portfolio items to sit next to each other*/
 	}
 
