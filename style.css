@@ -17,13 +17,17 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 body {font-family:'Raleway', 'Century-Gothic','Arial', 'sans-serif'; font-weight:400;}
 
-a {font-weight: 700; text-decoration:none;}
+a, article a {color: inherit; font-weight: 700; text-decoration:none;}
 a:hover {color:#074f57;}
 
 h1{color: #074f57; font-weight: 400; font-size: 36px; font-size: 2,5rem; line-height: 48px; text-transform: uppercase;}
 h2{color: #89023e; font-weight: 400; font-size: 30px; font-size: 2.1875rem; line-height: 40px;}
 h3{color: #074f57; font-weight: 400; font-size: 25px; font-size: 1.875rem; line-height:30px;}
 h4{color: #89023e; font-weight: 700; font-size: 18px; font-size: 1.125rem; line-height:22px;}
+h5{color: #074f57; font-weight: 400; }
+h6{color: #074f57; font-weight: 400; }
+
+
 
 hr { margin-top: 20px; margin-bottom: 10px; }
 
@@ -224,9 +228,6 @@ article #post-title, .teaser-title {
 padding-right: 0; /*Since comments are not enabled, we don't need right padding anymore */
 }
 
-.galleria-info, .galleria-amw-fullscreen { /* declutter galleria styling */
-display: none;
-}
 
 /* Portfolio Page & Single Portfolio Item Page*/
 
@@ -238,15 +239,6 @@ article blockquote {
   	margin: 1.5em 0;
   	padding: 0.5em 20px;
   	quotes: "\201C""\201D""\2018""\2019";
-}
-blockquote:before {
-	color: #b5ca8d;
-	content: open-quote;
-	font-size: 4em;
-	line-height: 0.1em;
-	margin-right: 0.15em;
-	vertical-align: -0.4em;
-	font-family: georgia;
 }
 blockquote p {
   display: inline;
@@ -279,12 +271,56 @@ a.visit-site { /* centers the "visit site" button at bottom of page */
 	color: #fff;
 }
 
+/* Single Portfolio Footer */
+
 article #post-tags a { 
 background-color: #BABABA;
 border-radius: 2px;
 font-weight: 400;
 }
 
+article #post-footer {
+background-color: none;
+color: inherit;
+border-top: none;
+}
+
+article #post-footer p { /* hides the author info, which doesn't seem releveant now */
+display: none;
+}
+
+#post-thumb-prev {
+float: left;
+padding-top:10px:
+}
+
+#post-thumb-next {
+float: right;
+padding-top:10px:
+}
+
+
+/* galleria galleries */
+
+.galleria-info { /* makes caption not overlap slide */
+bottom: 0;
+position: absolute;
+}
+
+.galleria-amw-fullscreen, .galleria-info-title, .galleria-thumbnails-container { /* declutter galleria styling. No thumbs!  */
+display: none !important;
+}
+
+div.galleria-info-text {
+background-color: #fff;
+}
+
+.galleria-info-description {
+font: italic 16px/1.4 georgia,serif;
+margin: 0;
+text-align: center;
+color: #969696;
+}
 
 /* Widgets */
 
@@ -302,12 +338,24 @@ p.pis-title {
 font-size: 1.3em;
 }
 
+.gform_wrapper li, .gform_wrapper form li, li.gfield  { /* clear li styling for gforms and mailchimp */
+list-style: none;
+margin: 0;
+padding-bottom: 0;
+border-bottom: none;
+}
+
 
 /**** Gravity Forms ****/
 
 /* no more tiny font sizes in my pretty gravity forms! */
 .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
 	font-size:inherit;
+}
+
+.gform_wrapper .gform_footer {
+padding: 5px 0 2px 0 !important;
+margin: 5px 0 0 0 !important;
 }
 
 /* Footer gravity form styling */
@@ -328,6 +376,10 @@ padding: 20px 0;
 width: 100%;
 background-color: #222;
 padding-top: 20px;
+}
+
+#footer-widgets .widget a:hover {
+color: #fff;
 }
 
 /* Footer : Style the search bar to be darker */
