@@ -113,10 +113,12 @@ max-height: 150px;
 /* Top Nav Menu */
 
 #primary-menu {
-	background: #89023e url("images/ellellco-ruby-pattern.gif"); 
+	/* background: #89023e url("images/ellellco-ruby-pattern.gif"); */
+	background: #fff; 
 	float:none; /*Fixes a bootstrap default that made menu float left. created weird overlaps */
 }
 
+/* 
 #primary-menu li a {
 	text-transform: uppercase;
 	font-size: 1.15em;
@@ -125,6 +127,18 @@ max-height: 150px;
 	letter-spacing: 4px;
 	margin: 0 40px;
 }
+*/
+
+#primary-menu li a {
+	text-transform: uppercase;
+	font-size: 1.15em;
+	font-weight: 400;
+	color: #89023E;
+	letter-spacing: 4px;
+	margin: 0 22px;
+}
+
+#primary-menu li a:hover { color:#aa0850;}
 
 /* Centering fix */
 
@@ -274,12 +288,28 @@ margin: 5px 10px;
 color: #818181;
 }
 
+.teaser-title a {
+	color: #fff;
+	background-color: #89023e;
+	padding: 12px;
+	display: block;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.teaser-title a:hover {
+	color: #fff;
+	background-color: #aa0850;
+}
+
 .teaser-more {
-	border-bottom: 2px solid #89023e;
+	border-bottom: none;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #89023e;
 }
+
+a.teaser-more:hover { color: #aa0850;}
 
 a.visit-site { /* centers the "visit site" button at bottom of page */
 	width: 40%;
