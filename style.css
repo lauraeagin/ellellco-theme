@@ -156,7 +156,7 @@ img.aligncenter {
 }
 
 .img-circle {
-	border: 5px solid #074f57;
+	/* border: 5px solid #074f57; */
 	}
 
 
@@ -183,14 +183,15 @@ line-height: 40px;
 }
 
 img.homepage-thumbnail {
-width: 100%;
-margin: 10px 0;
+	width: 100%;
+	margin: 10px 0 20px;
 }
 
 .home-tags {
-margin-top: 10px;
-display: block;
-text-align:center;
+	display:none !important; /* we can delete these once we are sure */
+	margin-top: 10px;
+	display: block;
+	text-align:center;
 }
 
 .homepage-bios li.bio {
@@ -216,14 +217,14 @@ text-align:center;
 }
 .call-to-action-content-wrapper {
 	padding: 20px 4% 20px 4%;
-    background-color: #89023e;
+    background-color: #E4E4E4;
 }
 .call-to-action-content {
 	width: 68%;
 	float: left;
 }
 .call-to-action-content h3 {
-	color: #fff;
+	color: #89023e;
 	padding-bottom: 0;
 	font-size: 40px;
 	font-weight: 700;
@@ -231,7 +232,7 @@ text-align:center;
 	margin-bottom: 10px;
 }
 .call-to-action-content p {
-	color: #fff;
+	color: #89023e;
 	padding-bottom: 0;
 	margin-bottom: 0;
 }
@@ -289,17 +290,11 @@ color: #818181;
 }
 
 .teaser-title a {
-	color: #fff;
-	background-color: #89023e;
-	padding: 12px;
+	color: #064747;
+	padding-top: 20px;
 	display: block;
-	font-size: 24px;
+	font-size: 33px;
 	font-weight: 400;
-}
-
-.teaser-title a:hover {
-	color: #fff;
-	background-color: #aa0850;
 }
 
 .teaser-more {
@@ -326,7 +321,7 @@ font-weight: 400;
 }
 
 article #post-footer {
-background-color: none;
+background-color: #fff;
 color: inherit;
 border-top: none;
 }
@@ -370,8 +365,15 @@ color: #969696;
 
 /* Widgets */
 
-#sidebar-widgets .widget h4 {
-border: none;
+.widget h4 {
+font-size: 13px;
+padding-bottom: 3px;
+border-bottom: none;
+border:none;
+text-transform: uppercase;
+display: inline-block;
+font-weight: 400;
+letter-spacing: 4px;
 }
 
 aside#gform_widget-3 { /* Let's talk Widget in sidebar */
@@ -398,6 +400,8 @@ border-bottom: none;
 .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
 	font-size:inherit;
 }
+
+.gform_wrapper .top_label .gfield_label {font-weight: 400; }
 
 .gfield_select { /* style the gravity forms dropdown select */
 height: 34px;
