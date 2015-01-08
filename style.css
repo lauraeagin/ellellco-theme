@@ -282,9 +282,8 @@ color: #818181;
 }
 
 a.visit-site { /* centers the "visit site" button at bottom of page */
-	display: block;
 	width: 40%;
-	margin: 20px 30%;
+	margin: 20px 30% 50px;
 	color: #fff;
 }
 
