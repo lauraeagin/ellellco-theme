@@ -168,6 +168,8 @@ img.aligncenter {
 
 #content-holder.home p.small, p.small {font-size: 100%;}
 
+#content-holder.home h2 a { font-weight: 400; }
+
 #mission {
 padding: 40px;
 background-color: #074f57;
@@ -290,12 +292,14 @@ color: #818181;
 }
 
 .teaser-title a {
-	color: #064747;
+	color: #074f57;
 	padding-top: 20px;
 	display: block;
 	font-size: 33px;
 	font-weight: 400;
 }
+
+.teaser-title a:hover { color:#0b6d6d; }
 
 .teaser-more {
 	border-bottom: none;
@@ -374,6 +378,10 @@ text-transform: uppercase;
 display: inline-block;
 font-weight: 400;
 letter-spacing: 4px;
+}
+
+#sidebar-widgets .widget h4 {
+font-size: 20px;
 }
 
 aside#gform_widget-3 { /* Let's talk Widget in sidebar */
