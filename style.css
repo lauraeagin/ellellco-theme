@@ -318,6 +318,10 @@ a.visit-site { /* centers the "visit site" button at bottom of page */
 
 /* Single Portfolio Footer */
 
+div#post-tags {
+	display: none;
+}
+
 article #post-tags a { 
 background-color: #BABABA;
 border-radius: 2px;
@@ -458,6 +462,14 @@ color: #fff;
 	padding: 5px;
 }
 
+#menu-footer-nav a {
+color: #777;
+}
+
+#footer-meta p a, #footer-meta p.small { /* the credits needed to be lightened up */
+color: #444;
+}
+
 /* Footer : Style the search bar to be darker */
 
 #footer-widgets .widget_search #s {
@@ -546,6 +558,14 @@ color: #fff;
 	margin: 10px auto 20px;
 	clear: both;
 	display: block;
+	}
+
+	ul#menu-footer-nav {
+		padding: 0;
+	}
+
+	#menu-footer-nav a {
+	display:block;
 	}
 
 }
