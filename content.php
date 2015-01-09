@@ -35,6 +35,7 @@
 				<?php the_title('<h3 class="teaser-title"><a href="' . esc_url( get_permalink()) . '" rel="bookmark">', '</a></h3>'); ?>
 			<?php endif; ?>
 			<?php the_excerpt(); ?>
+			<p><a class="teaser-more" href="<?php the_permalink(); ?>">Continue Reading</a></p>
 		</div>
 	</div>
 </div>
