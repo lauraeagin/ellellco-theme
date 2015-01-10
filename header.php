@@ -14,6 +14,7 @@
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" /> 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">   
 	<?php wp_head(); ?>
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 </head>
 <body <?php body_class(); ?>>
 <header>    
