@@ -24,7 +24,7 @@ h1{color: #074f57; font-weight: 400; font-size: 36px; font-size: 2,5rem; line-he
 h2{color: #89023e; font-weight: 400; font-size: 30px; font-size: 2.1875rem; line-height: 40px;}
 h3{color: #074f57; font-weight: 400; font-size: 25px; font-size: 1.875rem; line-height:30px;}
 h4{color: #89023e; font-weight: 700; font-size: 18px; font-size: 1.125rem; line-height:22px;}
-h5{color: #074f57; font-weight: 400; }
+h5{color: #BCBCBC; font-weight: 400; font-size:18px; }
 h6{color: #074f57; font-weight: 400; }
 
 
@@ -549,8 +549,21 @@ color: #444;
 		line-height: 34px;
 	}
 
+	#content-holder.home h2 {
+		font-size: 2.5em;
+	}
+
+	.btn-center {
+		width: 100%;
+		margin: 0;
+	}
+
 	.homepage-bios p {
 		width: 100%;
+	}
+
+	.call-to-action-content, .call-to-action-button {
+	width: 100%;
 	}
 
 	article .alignleft, article .alignright {
