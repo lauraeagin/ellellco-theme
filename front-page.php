@@ -23,7 +23,7 @@
 			<div class="col-md-12">
 
 		<?php if( get_field( "title_above_our_work_showcase" ) ): ?>
-			<h2 class="text-center"><?php the_field('title_above_our_work_showcase'); ?></h2>
+			<h2 class="text-center"><a href="/portfolio/"><?php the_field('title_above_our_work_showcase'); ?></a></h2>
 				<?php endif;
         ?>
 
@@ -51,7 +51,7 @@
 			<div class="col-md-12">
 
         <?php if( get_field( "title_above_our_bios" ) ): ?>
-			<h2 class="text-center"><?php the_field('title_above_our_bios'); ?></h2>
+			<h2 class="text-center"><a href="/about/"><?php the_field('title_above_our_bios'); ?></a></h2>
 				<?php endif;
         ?>
          <?php if( get_field( "our_bio_paragraph" ) ): ?>
