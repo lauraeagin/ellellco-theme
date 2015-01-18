@@ -32,17 +32,6 @@
 
 		<div class="row">
 			<?php include("parts/loop_portfolio.php"); ?>
-
-				<!--<?php dynamic_sidebar('homepage-portfolio'); ?>-->
-			<!--<div class="col-md-4">
-				<h3 class="text-center">Example 1</h3>
-			</div>
-			<div class="col-md-4">
-				<h3 class="text-center">Example 1</h3>
-			</div>
-			<div class="col-md-4">
-				<h3 class="text-center">Example 1</h3>
-			</div>-->
 		</div>
     </section>
     <section id="bios" class="homepage-bios">
@@ -62,14 +51,14 @@
 
 			<div class="col-md-4">
 		         <?php if( get_field( "laura_bio_photo" ) ): ?>
-					<li class="bio"><a href="/about/#laura"><img src="<?php the_field('laura_bio_photo'); ?>" class="img-circle aligncenter" alt="Laura Eagin web designer" width="200"/></a></li>
+					<li class="bio"><a href="/about/"><img src="<?php the_field('laura_bio_photo'); ?>" class="img-circle aligncenter" alt="Laura Eagin web designer" width="200"/></a></li>
 		 				<?php endif;
 		        ?>
 		        <h3 class="text-center">Laura Eagin</h3>
     		</div>
 			<div class="col-md-4">
 		        <?php if( get_field( "leeann_bio_photo" ) ): ?>
-					<li class="bio"><a href="/about/#leeann"><img src="<?php the_field('leeann_bio_photo'); ?>" class="img-circle aligncenter" alt="Leeann Drees web developer" width="200"/></a></li>
+					<li class="bio"><a href="/about/"><img src="<?php the_field('leeann_bio_photo'); ?>" class="img-circle aligncenter" alt="Leeann Drees web developer" width="200"/></a></li>
 		 				<?php endif;
 		        ?>
 		        <h3 class="text-center">Leeann Drees</h3>
