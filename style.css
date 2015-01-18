@@ -417,8 +417,7 @@ border-bottom: none;
 
 .gfield_select { /* style the gravity forms dropdown select */
 height: 34px;
-padding: 6px 12px;
-font-size: 14px;
+margin-bottom: 10px;
 line-height: 1.428571429;
 vertical-align: middle;
 background-color: #fff;
