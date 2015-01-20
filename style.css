@@ -212,6 +212,12 @@ img.homepage-thumbnail {
 	background-color:#8bb174; margin:20px 10px; border:0; color:#fff; padding:5px 7px; text-align:center; font-size:14px; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;
 	}
 
+.homepage-portfolio .col-md-4:hover .btn {
+	color: #fff;
+	background-color: #333;
+	text-decoration: none;
+}
+
 
 /* Homepage Call To Action Box */
 .widget_call_to_action { 
