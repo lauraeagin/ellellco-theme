@@ -138,7 +138,7 @@ max-height: 150px;
 	margin: 0 22px;
 }
 
-#primary-menu li a:hover { color:#aa0850;}
+#primary-menu li a:hover { color:#C21A51; transition-duration: 0;}
 
 /* Centering fix */
 
