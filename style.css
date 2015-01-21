@@ -559,8 +559,21 @@ width: 344px;
 		max-height: 80px;
 	}
 
+	#primary-menu ul {
+		width: 100%;
+	}
+
 	#primary-menu li {
 		float:none;
+	}
+
+	#primary-menu li:hover {
+	background-color: #aa0850;
+	color: #fff;
+	}
+
+	#primary-menu li a:hover {
+	color: #fff;
 	}
 
 	#post-holder {
