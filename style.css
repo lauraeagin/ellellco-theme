@@ -271,6 +271,8 @@ padding-right: 0; /*Since comments are not enabled, we don't need right padding 
 
 /* Portfolio Page & Single Portfolio Item Page*/
 
+article #post-comment-total { display:none; /* Hide the Comments Bubble */ }
+
 article blockquote {
 	text-align: left;
 	font-size: 20px;
@@ -299,10 +301,11 @@ color: #818181;
 
 .teaser-title a {
 	color: #074f57;
-	padding-top: 20px;
+	padding-top: 10px;
 	display: block;
-	font-size: 33px;
+	font-size: 30px;
 	font-weight: 400;
+	line-height: 1.15em;
 }
 
 .teaser-title a:hover { color:#0b6d6d; }
@@ -455,6 +458,11 @@ background-color: #222;
 padding-top: 20px;
 }
 
+#footer-widgets .widget {
+width: 80%;
+margin: 0 auto 20px;
+}
+
 #footer-widgets .widget a {
 color: inherit;
 }
@@ -483,16 +491,35 @@ color: #444;
 	padding: 10px;
 }
 
+/* Wide Desktops Only */
+
+
+@media (min-width:1600px) {
+	#teaser-holder {
+		width: 1290px;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		clear: both;
+	}
+}
+
+
+@media(max-width : 1200px)  {
+
+.teaser, .teaser .attachment-featured-teaser {
+width: 344px;
+}
+}
+
+
 /* Desktop Only */
 
 @media (min-width: 900px) {
 
 	.container {
 		width: 90%;
-	}
-
-	.archive .container {
-		width: 93%; /*allows 3 portfolio items to sit next to each other*/
+		max-width: 1600px;
 	}
 
 	#content-holder {
@@ -501,6 +528,10 @@ color: #444;
 
 	#post-holder {
 		margin-top: 10px;
+	}
+
+	#teaser-holder {
+		margin: 30px auto;
 	}
 
 }
@@ -537,12 +568,13 @@ color: #444;
 	}
 
 	#teaser-holder {
-	 	margin-top: 0;
+	 	margin: 0 auto;
 	}
 
-	.teaser {
+	.teaser, .teaser .attachment-featured-teaser {
 		margin:0;
 		margin-bottom: 20px;
+		width: 100%;
 	}
 
 	article #post-title {
