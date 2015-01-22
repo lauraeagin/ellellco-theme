@@ -299,6 +299,11 @@ margin: 5px 10px;
 color: #818181;
 }
 
+#teaser-holder {
+	margin-top:20px;
+}
+
+
 .teaser-title a {
 	color: #074f57;
 	padding-top: 10px;
@@ -455,12 +460,16 @@ padding: 20px 0;
 #footer-widgets {
 width: 100%;
 background-color: #222;
-padding-top: 20px;
+padding-bottom: 20px;
 }
 
 #footer-widgets .widget {
 width: 80%;
 margin: 0 auto 20px;
+}
+
+#footer-widgets .widget h4 {
+padding-top: 20px;
 }
 
 #footer-widgets .widget a {
@@ -483,12 +492,37 @@ color: #777;
 color: #444;
 }
 
-/* Footer : Style the search bar to be darker */
+#footer-widgets .mc4wp-form input::-webkit-input-placeholder { color: #fff; }
 
-#footer-widgets .widget_search #s {
-	background-color: #666;
+/* MailChimp Widget Global */
+
+.mc4wp-form form, form.mc4wp-form {
+width: auto;
+margin-bottom: 40px;
+}
+
+.mc4wp-form input[type=submit], input[type=reset] {
+background-color: #8D0D46;
+}
+
+#sidebar-widgets img.cool-cat {
+display:none;
+}
+
+/* MailChimp Footer Only */
+
+#footer-widgets #mc4wp_email {
+	background-color: #515151;
 	border: none;
 	padding: 10px;
+	color: #fff;
+}
+
+#footer-widgets img.cool-cat {
+position: absolute;
+right: 72px;
+opacity: 0.3;
+top: 28px;
 }
 
 /* Wide Desktops Only */
@@ -505,10 +539,15 @@ color: #444;
 }
 
 
-@media(max-width : 1200px)  {
+@media(max-width: 1400px)  {
 
-.teaser, .teaser .attachment-featured-teaser {
-width: 344px;
+.teaser {
+width: 30%;
+margin: 0 1% 30px 1%;
+}
+
+.teaser .attachment-featured-teaser {
+width: 100%;
 }
 }
 
@@ -531,7 +570,7 @@ width: 344px;
 	}
 
 	#teaser-holder {
-		margin: 30px auto;
+		margin: 20px auto;
 	}
 
 }
