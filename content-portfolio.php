@@ -14,17 +14,7 @@ $testimonial = get_field('testimonial');
 			<?php include("parts/site_button.php"); ?>
 			<?php if($testimonial) :
 			echo '<blockquote><p>' . $testimonial . '</p></blockquote>';
-			endif; ?>
-			<?php
-			$post_tags = get_the_tags();
-				if ($post_tags) :					
-					echo '<div id="post-tags">';
-					    foreach($post_tags as $tag) {
-					    	echo '<a href="' . get_tag_link( $tag->term_id ) . '">' . $tag->name.'</a>'; 
-					  	}
-				  	echo '</div>';					  	
-				endif;
-			?>					
+			endif; ?>			
 		</div>
 		<?php wp_link_pages('before=<div id="post-links">&after=</div>'); ?>		
 		<div id="post-footer" class="clearfix">
