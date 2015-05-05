@@ -1,20 +1,5 @@
 <?php get_header(); ?>
 		
-<!--	<section id="mission" class="homepage-mission">
-
-			<div class="row">
-				<div class="col-md-12">
-
-				<?php if( get_field( "mission_statement" ) ): ?>
-					<p class="white text-center"><?php the_field('mission_statement'); ?></p>
-						<?php endif;
-		        ?>
-			    </div>
-			</div>
-    </section>
-
--->
-
     <div id="content-holder" class="container home">
 
     <section id="portfolio" class="homepage-portfolio">
