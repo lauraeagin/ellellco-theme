@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-	<title><?php wp_title('|', true, 'right'); ?></title>
+    <?php if(is_post_type_archive('portfolio')): ?>
+    <title>Web Design &amp; Development Portfolio | ellell &amp; co.</title>
+    <?php else: ?>
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
+    <?php endif; ?>
 	<meta charset="<?php bloginfo('charset'); ?>" />           
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="DC.Subject" xml:lang="EN" content="Portfolio of ellell &amp; co" /> 
