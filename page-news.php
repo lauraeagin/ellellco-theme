@@ -11,8 +11,10 @@
 		query_posts( $args );
 		if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<div <?php post_class(); ?>>
-		<div class="news-item">		
+		<div class="news-item">	
+		<div class="news-img-crop">	
 		<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_post_thumbnail('large'); ?></a>
+		</div>
 		<div class="news-excerpt">
 			<!-- <span class="teaser-comment-total"><?php comments_number('0', '1', '% '); ?></span> -->
 			<?php if (is_sticky()) : ?> 
