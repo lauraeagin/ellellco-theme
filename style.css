@@ -27,8 +27,6 @@ h4{color: #89023e; font-weight: 700; font-size: 18px; font-size: 1.125rem; line-
 h5{color: #BCBCBC; font-weight: 400; font-size:18px; }
 h6{color: #074f57; font-weight: 400; }
 
-
-
 hr { margin-top: 20px; margin-bottom: 10px; }
 
 /* Button Styles that should be in our Bootstrap .css but aren't */
@@ -147,7 +145,8 @@ h2.text-center,
 h3.text-center, 
 h4.text-center, 
 h5.text-center, 
-h6.text-center {text-align:center;}
+h6.text-center,
+.text-center {text-align:center;}
 
 img.aligncenter {
 	display: block;
@@ -155,9 +154,22 @@ img.aligncenter {
 	margin-right: auto;
 }
 
-.img-circle {
-	/* border: 5px solid #074f57; */
-	}
+/* Helper Classes */
+
+.txt-lg {
+	font-size:1.5em; 
+	line-height: 1.5;
+    color: grey;
+}
+
+.mg {margin: 10px;}
+.mg-lg {margin: 20px;}
+
+.img-border {
+	border: 5px solid #074f57;
+}
+
+.nobullet {list-style-type:none;}
 
 
 /* Home Page */
@@ -259,7 +271,7 @@ img.homepage-thumbnail {
 	-moz-box-shadow:0 0 2px rgba(0, 0, 0, 0.6);
 	box-shadow:0 0 2px rgba(0, 0, 0, 0.6);
 	color:#000;
-	background-color: #cc7178;
+	background-color: #e4e4e4;
 }
 
 /* Page */
