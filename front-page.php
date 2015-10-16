@@ -78,7 +78,7 @@
  		
 </div>
         <?php if( get_field( "call_to_action_link" ) ): ?>
-			<a class="call-to-action-button btn btn-primary" href="<?php the_field('call_to_action_link'); ?>" title="Work with us">Work with us</a>
+			<a class="call-to-action-button btn btn-primary" href="<?php the_field('call_to_action_link'); ?>" title="Get a Quote">Get a Quote</a>
  				<?php endif;
         ?>			
 				</div>
