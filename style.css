@@ -236,7 +236,7 @@ img.homepage-thumbnail {
 	margin-bottom: 60px;  
 }
 .call-to-action-content-wrapper {
-	padding: 20px 4% 20px 4%;
+	padding: 30px 4% 30px 4%;
     background-color: #E4E4E4;
 }
 .call-to-action-content {
@@ -244,7 +244,7 @@ img.homepage-thumbnail {
 	float: left;
 }
 .call-to-action-content h3 {
-	color: #89023e;
+	color: #333;
 	padding-bottom: 0;
 	font-size: 40px;
 	font-weight: 700;
@@ -252,7 +252,7 @@ img.homepage-thumbnail {
 	margin-bottom: 10px;
 }
 .call-to-action-content p {
-	color: #89023e;
+	color: #333;
 	padding-bottom: 0;
 	margin-bottom: 0;
 }
@@ -387,75 +387,6 @@ padding-top:10px:
     padding: 10px;
 }
 
-/* Blog Archive Page */
-
-.news-item {
-  background-color: #fff;
-  /*margin: 0 15px 30px 15px;*/
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  overflow: hidden;
-  padding: 1em;
-  margin: 2em 0;
-}
-
-.news-img-crop {
-	max-height: 300px;
-	overflow: hidden;
-}
-
-.news-img-crop img {
-  display: block;
-  max-width: 100%;
-  margin: 0 auto;
-  height: auto !important;
-  width: auto\9; /* ie8+9 */
-  /* lt ie8 */
-  -ms-interpolation-mode: bicubic; 
-}
-
-.news-item .teaser-title {
-	text-align: center;
-}
-
-.news-excerpt {
-	margin-top: 1em;
-}
-
-.news-meta {
-	text-align: center;
-	text-transform: uppercase;
-	color: #89023E;
-}
-
-.news-item .teaser-more {
-  color: #89023E;
-  background: none;
-  padding: 14px 25px 12px;
-  border: 3px solid #89023E;
-  transition: background-color 0.5s ease-out,
-              color 0.5s ease-out;
-}
-
-.news-item .teaser-more:hover {
-	color: #fff;
-  	background-color: #89023E;
-  	transition: background-color 0.5s ease-in,
-              color 0.5s ease-in;
-  }
-
-
-.news-item p {
-	line-height: 1.75em;
-    font-size: 17px;
-}
-
-.news-item p:last-of-type {
-	text-align: center;
-	margin: 2em auto;
-}
 
 /* galleria galleries */
 
@@ -767,4 +698,37 @@ width: 100%;
 }
 
 
+/* Pricing Table Styles */
 
+.rpt_style_basic .rpt_plan .rpt_head .rpt_price {
+    padding: 6px 10px;
+    font-size: 50px;
+    }
+
+.rpt_4_plans .rpt_plan .rpt_head .rpt_price { /* Make titles a little smaller */
+    font-size: 36px;
+    line-height: 60px;
+}
+
+.rpt_4_plans .rpt_plan .rpt_head .rpt_subtitle {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 10px 25px 20px;
+    letter-spacing: 0.5px;
+}
+
+.rpt_head {
+    min-height: 220px;
+    padding-top: 14px;
+}
+
+.rpt_style_basic .rpt_plan .rpt_foot {
+    color: #333;
+    }
+
+@media only screen and (max-width: 40em) {
+.rpt_style_basic .rpt_plan .rpt_head .rpt_price {
+    font-size: 30px!important;
+    line-height: 40px!important;
+}
+}
