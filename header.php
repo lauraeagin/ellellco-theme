@@ -27,10 +27,6 @@
         <a id="header-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
     <?php endif; ?> 
     <p id="header-description"><?php bloginfo('description'); ?></p> 
-    <?php $header_img = get_header_image(); ?> 
-    <?php if ($header_img) : ?>     
-	   <img id="header-img" src="<?php header_image(); ?>" alt="" /> 
-    <?php endif; ?>     
 </header>
 <?php
     $location = 'primary';
