@@ -1,13 +1,13 @@
-/* 
+/*
 Theme Name: ellellco
-Description: Child Theme of Griffin Theme by Michael Burrows  
+Description: Child Theme of Griffin Theme by Michael Burrows
 Template: griffin
 Author: Laura Eagin & Leeann Drees
 Author URI: http://ellell.co
 Version: 1.0.1
 License: GNU General Public License v3.0
-License URI: http://www.gnu.org/licenses/gpl-3.0.html 
-*/ 
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
 
 /* Most styles are contained in the parent theme, Griffin. The styles below are child theme modifications to the parent theme. */
 
@@ -20,7 +20,11 @@ body {font-family:'Raleway', 'Century-Gothic','Arial', 'sans-serif'; font-weight
 a, article a {color: inherit; font-weight: 700; text-decoration:none;}
 a:hover {color:#074f57;}
 
-h1{color: #074f57; font-weight: 400; font-size: 36px; font-size: 2,5rem; line-height: 48px; text-transform: uppercase;}
+h1{color: #89023e ;
+   font-weight: 600;
+   font-size: 36px;
+   font-size: 2.5rem;
+   line-height: 48px;}
 h2{color: #89023e; font-weight: 400; font-size: 30px; font-size: 2.1875rem; line-height: 40px;}
 h3{color: #074f57; font-weight: 400; font-size: 25px; font-size: 1.875rem; line-height:30px;}
 h4{color: #89023e; font-weight: 700; font-size: 18px; font-size: 1.125rem; line-height:22px;}
@@ -83,7 +87,7 @@ hr { margin-top: 20px; margin-bottom: 10px; }
 }
 
 .btn-center {
-	width: 66%;
+  width: 66%;
   	margin: 0 17%;
 }
 
@@ -112,11 +116,11 @@ max-height: 150px;
 
 #primary-menu {
 	/* background: #89023e url("images/ellellco-ruby-pattern.gif"); */
-	background: #fff; 
+	background: #fff;
 	float:none; /*Fixes a bootstrap default that made menu float left. created weird overlaps */
 }
 
-/* 
+/*
 #primary-menu li a {
 	text-transform: uppercase;
 	font-size: 1.15em;
@@ -140,11 +144,11 @@ max-height: 150px;
 
 /* Centering fix */
 
-h1.text-center, 
-h2.text-center, 
-h3.text-center, 
-h4.text-center, 
-h5.text-center, 
+h1.text-center,
+h2.text-center,
+h3.text-center,
+h4.text-center,
+h5.text-center,
 h6.text-center,
 .text-center {text-align:center;}
 
@@ -157,7 +161,7 @@ img.aligncenter {
 /* Helper Classes */
 
 .txt-lg {
-	font-size:1.5em; 
+	font-size:1.5em;
 	line-height: 1.5;
     color: grey;
 }
@@ -176,7 +180,7 @@ img.aligncenter {
 
 #content-holder.home p { font-size: 1.5em; }
 
-#content-holder.home h2 { font-size: 3.5em; } 
+#content-holder.home h2 { font-size: 3.5em; }
 
 #content-holder.home p.small, p.small {font-size: 100%;}
 
@@ -190,9 +194,9 @@ background-color: #074f57;
 p.white {
 text-align: center;
 color: #fff;
-font-weight: 400; 
-font-size: 30px; 
-font-size: 2.1875rem; 
+font-weight: 400;
+font-size: 30px;
+font-size: 2.1875rem;
 line-height: 40px;
 }
 
@@ -232,8 +236,8 @@ img.homepage-thumbnail {
 
 
 /* Homepage Call To Action Box */
-.widget_call_to_action { 
-	margin-bottom: 60px;  
+.widget_call_to_action {
+	margin-bottom: 60px;
 }
 .call-to-action-content-wrapper {
 	padding: 30px 4% 30px 4%;
@@ -278,6 +282,10 @@ img.homepage-thumbnail {
 
 article #post-title, .teaser-title {
 padding-right: 0; /*Since comments are not enabled, we don't need right padding anymore */
+}
+
+article #post-content {
+  padding: 54px 15%;
 }
 
 
@@ -348,7 +356,7 @@ div#post-tags {
 	display: none;
 }
 
-article #post-tags a { 
+article #post-tags a {
 background-color: #BABABA;
 border-radius: 2px;
 font-weight: 400;
