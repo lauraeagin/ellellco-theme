@@ -9,9 +9,6 @@
 				}
 				 ?>
 			</a>
-			<a href="<?php the_permalink(); ?>" class="btn btn-secondary btn-center margin-top-10" role="button">
-			<?php the_title(); ?>
-			</a>
 			</div>
 		<?php endwhile; wp_reset_query(); ?>
 		<!-- button to view portfolio will go here! -->
