@@ -150,7 +150,7 @@ h3.text-center,
 h4.text-center,
 h5.text-center,
 h6.text-center,
-.text-center {text-align:center;}
+.text-center {text-align:center!important;}
 
 img.aligncenter {
 	display: block;
@@ -178,17 +178,42 @@ img.aligncenter {
 
 /* Home Page */
 
-#content-holder.home p { font-size: 1.5em; }
+#content-holder .home p { font-size: 1.5em; }
 
-#content-holder.home h2 { font-size: 3.5em; }
+#content-holder .home h2 { font-size: 3.5em; }
 
-#content-holder.home p.small, p.small {font-size: 100%;}
+#content-holder .home h3 { font-size: 1.9em; }
 
-#content-holder.home h2 a { font-weight: 400; }
+#content-holder .home p.small, p.small {font-size: 100%;}
+
+#content-holder .home h2 a { font-weight: 400; }
 
 #mission {
 padding: 40px;
 background-color: #074f57;
+}
+
+.teaching-bg {
+  background: #89023e url("images/wordpress-training.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container-fluid.teaching-bg {
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 3em 0;
+  background-color: rgba(137, 2, 62, 0.6); /*rgba(7, 79, 87, 0.6) teal*/
+}
+
+.teaching-bg h3, .teaching-bg h2, .teaching-bg p, .teaching-bg a, .teaching-bg a:hover, .teaching-bg a:active {
+  color: #fff;
 }
 
 p.white {

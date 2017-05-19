@@ -11,4 +11,3 @@
 			</a>
 			</div>
 		<?php endwhile; wp_reset_query(); ?>
-		<!-- button to view portfolio will go here! -->
