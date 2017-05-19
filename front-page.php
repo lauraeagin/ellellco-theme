@@ -20,8 +20,10 @@
 		</div>
 		<div class="row homepage-bios">
 			<div class="col-md-12 text-center">
-			<p>We build websites that not only look right for the job, but <em>do the right job</em>. Platforms like WordPress and Shopify ensure our clients see an excellent return on investment. Redesigns, site fixes &amp; maintenance, and SEO consulting are among the services we provide.</p>
-			<a class="btn btn-primary">Check Out Our Portfolio</a>
+			<h3>We build websites that not only look right for the job, but <em>do the right job</em>. </h3>
+      <p>We use platforms like WordPress and Shopify so that our clients see an excellent return on investment. If you already have a website, we can work with you. We are happy to redesign, maintain, and fix your website. We’ll help you improve SEO, too.</p>
+      <a href="/lets-start/" class="btn btn-primary">Let’s Work Together</a><br>
+      <small>or <a href="/portfolio/">check out our portfolio</a></small>
 			</div>
 		</div>
     </section>
@@ -30,7 +32,7 @@
 		<div class="overlay">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 text-center homepage-bios">
+				<div class="col-md-12 text-center homepage-bios" style="padding-top: 4em; padding-bottom: 4em;">
 					<!-- <h2>Learn how to build, edit &amp; grow your website.</h2>
 						<p>Are you struggling with figuring out how to fix a bug or add a new feature to a website?<br>
 							There’s <a href=“#tutoring”>one-on-one training</a> for that.</p>
@@ -42,11 +44,9 @@
 								We offer <a href=“#corporate”>corporate training</a>, too.</p> -->
 
 								<h2>Workshops in Detroit</h2>
-								<h3>Learn how to build & edit your website</h3>
-								<p>We teach <a href="#">in-person workshops</a> on WordPress Basics, Advanced WordPress Coding and Building an Online Shop with Shopify. Don’t be intimidated by the code, plugins, and themes. Get answers to your tech questions in a friendly, fun classroom setting.</p>
+								<p>We teach <a href="#">in-person workshops</a> on WordPress, Building an Online Shop with Shopify, and more. Don’t be intimidated by the code, plugins, and themes. Get answers to your tech questions in a friendly, fun classroom setting.  We also offer <a href="/wordpress-workshops-training-detroit/#tutoring">one-on-one training</a> and  <a href="/wordpress-workshops-training-detroit/#corporate">corporate training</a>.</p>
 
-								<p> We also offer <a href="#">one-on-one training</a> and  <a href="#">corporate training</a> for your whole team.</p>
-
+                <a href="/wordpress-workshops-training-detroit/#workshops" class="btn btn-white">Upcoming Classes</a> <a href="/wordpress-workshops-training-detroit/#learning" class="btn btn-white">Schedule a Training</a>
 				</div>
 			</div>
 		</div>

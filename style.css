@@ -94,6 +94,8 @@ hr { margin-top: 20px; margin-bottom: 10px; }
 .btn-primary { color:#fff; background-color: #89023e;}
 .btn-default { color:#fff; background-color: #074f57;}
 .btn-secondary { color:#000; background-color: #BAB9B7;}
+.btn-white {color: #89023e!important; background-color: #fff;}
+.btn-white:hover {color: #fff!important;}
 
 
 /* Global Layout */
@@ -209,7 +211,7 @@ background-color: #074f57;
   height: 100%;
   position: relative;
   padding: 3em 0;
-  background-color: rgba(137, 2, 62, 0.6); /*rgba(7, 79, 87, 0.6) teal*/
+  background-color: rgba(137, 2, 62, 0.8); /*rgba(7, 79, 87, 0.6) teal*/
 }
 
 .teaching-bg h3, .teaching-bg h2, .teaching-bg p, .teaching-bg a, .teaching-bg a:hover, .teaching-bg a:active {
@@ -250,7 +252,7 @@ img.homepage-thumbnail {
 }
 
 .homepage-portfolio h3 {
-	background-color:#8bb174; margin:20px 10px; border:0; color:#fff; padding:5px 7px; text-align:center; font-size:14px; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;
+	 margin:20px 10px; border:0; padding:5px 7px; text-align:center; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px;
 	}
 
 .homepage-portfolio .col-md-4:hover .btn {
