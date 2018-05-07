@@ -165,7 +165,7 @@ img.aligncenter {
 .txt-lg {
 	font-size:1.5em;
 	line-height: 1.5;
-    color: grey;
+    /* color: grey; */
 }
 
 .mg {margin: 10px;}
@@ -238,6 +238,8 @@ img.homepage-thumbnail {
 	display: block;
 	text-align:center;
 }
+
+.homepage-bios {margin-top:40px;}
 
 .homepage-bios li.bio {
 	list-style-type: none;

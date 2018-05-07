@@ -4,24 +4,16 @@
 		<div class="container home">
 
     <section id="portfolio" class="homepage-portfolio">
-
-    	<div class="row">
-			<div class="col-md-12">
-
-		<?php if( get_field( "title_above_our_work_showcase" ) ): ?>
-			<h2 class="text-center"><a href="/portfolio/"><?php the_field('title_above_our_work_showcase'); ?></a></h2>
-				<?php endif;
-        ?>
-			</div>
-	    </div>
-
 		<div class="row">
 			<?php include("parts/loop_portfolio.php"); ?>
 		</div>
 		<div class="row homepage-bios">
 			<div class="col-md-12 text-center">
-			<h3>We build websites that not only look right for the job, but <em>do the right job</em>. </h3>
-      <p>We use platforms like WordPress and Shopify so that our clients see an excellent return on investment. If you already have a website, we can work with you. We are happy to redesign, maintain, and fix your website. We’ll help you improve SEO, too.</p>
+        <?php if( get_field( "title_above_our_work_showcase" ) ): ?>
+    			<h2 class="text-center"><a href="/portfolio/"><?php the_field('title_above_our_work_showcase'); ?></a></h2>
+    				<?php endif;
+            ?>
+      <p>Together let's redesign, maintain, or fix your website. WordPress doesn't have to be intimidating, if you have the right help from professional web developers.</p>
       <a href="/lets-start/" class="btn btn-primary">Let’s Work Together</a><br>
       <small>or <a href="/portfolio/">check out our portfolio</a></small>
 			</div>
@@ -46,7 +38,7 @@
 								<h2>Workshops in Detroit</h2>
 								<p>We teach <a href="#">in-person workshops</a> on WordPress, Building an Online Shop with Shopify, and more. Don’t be intimidated by the code, plugins, and themes. Get answers to your tech questions in a friendly, fun classroom setting.  We also offer <a href="/wordpress-workshops-training-detroit/#tutoring">one-on-one training</a> and  <a href="/wordpress-workshops-training-detroit/#corporate">corporate training</a>.</p>
 
-                <a href="/wordpress-workshops-training-detroit/#workshops" class="btn btn-white">Upcoming Classes</a> <a href="/wordpress-workshops-training-detroit/#learning" class="btn btn-white">Schedule a Training</a>
+                <a href="/wordpress-workshops-training-detroit/#workshops" class="btn btn-white txt-lg">Upcoming Classes</a>
 				</div>
 			</div>
 		</div>
@@ -112,7 +104,7 @@
 
 </div>
         <?php if( get_field( "call_to_action_link" ) ): ?>
-			<a class="call-to-action-button btn btn-primary" href="<?php the_field('call_to_action_link'); ?>" title="Get Price Quote for Website Design">Find Out</a>
+			<a class="call-to-action-button btn btn-primary txt-lg" href="<?php the_field('call_to_action_link'); ?>" title="WordPress Class in Detroit">WordPress Classes</a>
  				<?php endif;
         ?>
 				</div>
