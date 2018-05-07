@@ -4,14 +4,14 @@ Description: Child Theme of Griffin Theme by Michael Burrows
 Template: griffin
 Author: Laura Eagin & Leeann Drees
 Author URI: http://ellell.co
-Version: 1.0.1
+Version: 1.0.2
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
 /* Most styles are contained in the parent theme, Griffin. The styles below are child theme modifications to the parent theme. */
 
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
 
 /* Global Child Theme Styles*/
 
@@ -26,7 +26,7 @@ h1{color: #89023e ;
    font-size: 2.5rem;
    line-height: 48px;}
 h2{color: #89023e; font-weight: 400; font-size: 30px; font-size: 2.1875rem; line-height: 40px;}
-h3{color: #074f57; font-weight: 400; font-size: 25px; font-size: 1.875rem; line-height:1.2em;}
+h3{color: #074f57; font-weight: 400; font-size: 25px; font-size: 1.875rem; line-height:30px;}
 h4{color: #89023e; font-weight: 700; font-size: 18px; font-size: 1.125rem; line-height:22px;}
 h5{color: #BCBCBC; font-weight: 400; font-size:18px; }
 h6{color: #074f57; font-weight: 400; }
