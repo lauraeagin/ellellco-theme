@@ -38,7 +38,7 @@
 								<h2>Workshops in Detroit</h2>
 								<p>We teach <a href="#">in-person workshops</a> on WordPress, Building an Online Shop with Shopify, and more. Don’t be intimidated by the code, plugins, and themes. Get answers to your tech questions in a friendly, fun classroom setting. We also offer <a href="/wordpress-workshops-training-detroit/#tutoring">one-on-one training</a> and  <a href="/wordpress-workshops-training-detroit/#corporate">corporate training</a>.</p>
 
-                <a href="/wordpress-workshops-training-detroit/#workshops" class="btn btn-white txt-lg">Upcoming Classes</a>
+                <a href="/wordpress-workshops-training-detroit/#workshops" class="btn btn-white">Upcoming Classes</a>
 				</div>
 			</div>
 		</div>
